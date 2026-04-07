@@ -86,10 +86,8 @@ brazil-visible/
 │   ├── health.json               # Resultado do health check (gerado)
 │   ├── manifest.json             # PWA manifest
 │   └── *.svg, *.png              # Ícones e logos
-├── Dockerfile                    # Build multi-stage (node + nginx)
-├── nginx.conf                    # Configuração nginx com security headers
-├── AGENTS.md                     # Fonte da verdade do projeto
-├── CLAUDE.md                     # Instruções para Claude Code
+├── Dockerfile                    # Build multi-stage (node:22-alpine standalone)
+├── CLAUDE.md                     # Instruções do projeto
 └── CONTRIBUTING.md               # Guia de contribuição
 ```
 

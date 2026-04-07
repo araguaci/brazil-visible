@@ -8,6 +8,8 @@ interface Props {
   params: Promise<{ tag: string }>;
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const tagMap = getAllTags();
   return [...tagMap.keys()].map((tag) => ({

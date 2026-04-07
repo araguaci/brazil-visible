@@ -23,9 +23,10 @@ build
 .DS_Store
 
 # Documentation & meta
-AGENTS.md
+README.md
 CONTRIBUTING.md
 LICENSE
+CLAUDE.md
 .claude/
 
 # Docker
