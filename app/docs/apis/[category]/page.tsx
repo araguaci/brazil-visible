@@ -9,6 +9,8 @@ interface Props {
   params: Promise<{ category: string }>;
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return getCategories().map((cat) => ({ category: cat.dir }));
 }

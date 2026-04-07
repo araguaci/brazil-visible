@@ -18,6 +18,8 @@ interface Props {
   params: Promise<{ category: string; slug: string }>;
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const docs = getAllApiDocs();
   return docs.map((doc) => ({
